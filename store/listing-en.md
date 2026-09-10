@@ -36,7 +36,7 @@ WHAT TO EAT FIRST
 Your list is always sorted by urgency, not by when you added things. Eat today, this week, later. One tap marks something eaten or thrown away, and that is all the bookkeeping there is.
 
 SEE YOUR WASTE SHRINK
-Every month Basil shows how much you actually ate versus how much went in the bin, counted portion by portion. Not to make you feel guilty — just so you can watch the number go the right way.
+Every month Basil shows how much you actually ate versus how much got thrown out, counted portion by portion. Not to make you feel guilty — just so you can watch the number go the right way.
 
 ON YOUR HOME SCREEN
 A free widget shows what is about to go off, without opening the app.
