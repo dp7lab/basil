@@ -68,6 +68,18 @@ The title and short description together already carry
 "food expiry tracker" and "scan"; the full description carries
 the rest naturally, without keyword stuffing.
 
+## Screenshot order
+
+Upload them in this order — Play shows the first two in search results,
+so the strongest pair goes first.
+
+1. `screenshot-1-home.png` — sorted by urgency
+2. `screenshot-2-scan.png` — the differentiator
+3. `screenshot-3-stats.png` — the reason to come back
+4. `screenshot-4-detail.png` — how little work it is
+5. `screenshot-5-dark.png` — dark mode and languages
+6. `screenshot-6-dark-stats.png` — what the free tier gives
+
 ## What still needs a human
 
 The scan screenshot is the weak one. The camera is pointed at an empty
