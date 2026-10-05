@@ -4,92 +4,150 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Basil — What to eat first?</title>
-<meta name="description" content="Basil is a food expiry tracker for Android. Scan the barcode, scan the printed date, and get a nudge before anything goes off. No account, no ads, nothing leaves your phone.">
+<meta name="description" content="Basil is a food expiry tracker for Android. Scan the barcode, scan the printed date, and get a nudge before anything goes off. No account, no ads, your list stays on your phone.">
+<meta name="theme-color" content="#FDF5BC">
 <meta property="og:title" content="Basil — What to eat first?">
-<meta property="og:description" content="Scan the label, get reminded before it goes off, watch your waste shrink. Free, private, no account.">
-<meta property="og:image" content="https://dp7lab.github.io/basil/img/home.webp">
+<meta property="og:description" content="Scan the label, get reminded before it goes off, watch your waste shrink. No account, no ads.">
+<meta property="og:image" content="https://dp7lab.github.io/basil/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="img/favicon.png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,800..900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="wrap">
 
+<header class="wrap">
   <nav>
-    <a class="brand" href="./"><img src="img/logo.png" alt="" width="36" height="36">Basil</a>
+    <a class="brand" href="./"><img src="img/wordmark.png" alt="Basil" width="480" height="178"></a>
     <div class="links">
+      <a href="#features">Features</a>
       <a href="privacy.html">Privacy</a>
       <a href="mailto:dp7lab.support@gmail.com">Contact</a>
     </div>
   </nav>
 
-  <header class="hero">
-    <div class="eyebrow">Food expiry tracker for Android</div>
-    <h1>What to eat first?</h1>
-    <p class="lead">Scan the barcode, scan the printed date, and get a nudge before anything goes off. <strong>Nothing hides at the back of the fridge anymore.</strong></p>
-    <div class="cta">
-      <span class="btn btn-soon">Coming soon on Google Play</span>
-      <a class="btn btn-ghost" href="mailto:dp7lab.support@gmail.com?subject=Basil">Contact us</a>
+  <div class="hero">
+    <div>
+      <h1 class="display xl bars">What to<br>eat first?</h1>
+      <p class="lead">A food expiry tracker for Android. Scan it, get a nudge before it goes off, and nothing hides at the back of the fridge anymore.</p>
+      <div class="cta">
+        <span class="btn btn-soon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.3 2.6a1.4 1.4 0 0 0-.6 1.2v16.4c0 .5.2.9.6 1.2l9.3-9.4-9.3-9.4Zm10.4 10.5 2.6 2.6-11.1 6.3 8.5-8.9Zm3.7-3.6 3 1.7c.9.5.9 1.8 0 2.3l-3 1.7-2.8-2.8 2.8-2.9ZM6.2 2l11.1 6.3-2.6 2.6L6.2 2Z"/></svg>
+          Coming soon on Google Play
+        </span>
+        <a class="btn btn-line" href="mailto:dp7lab.support@gmail.com?subject=Basil">Contact us</a>
+      </div>
+      <div class="fineprint"><span>No account</span><span>No ads</span><span>English · Deutsch · Français · Tiếng Việt</span></div>
     </div>
-    <div class="fineprint"><span>Free</span><span>No account</span><span>No ads</span><span>English · Deutsch · Français · Tiếng Việt</span></div>
-  </header>
-
-  <div class="screens">
-    <figure class="screen" style="margin:0">
-      <img src="img/home.webp" width="720" height="1393" alt="Basil home screen with items sorted by urgency">
-      <figcaption>Everything sorted by what to eat first</figcaption>
-    </figure>
-    <figure class="screen" style="margin:0">
-      <img src="img/scan.webp" width="720" height="1393" alt="Basil scanner with barcode and expiry date modes" loading="lazy">
-      <figcaption>Scan the barcode or the printed date</figcaption>
-    </figure>
-    <figure class="screen" style="margin:0">
-      <img src="img/stats.webp" width="720" height="1393" alt="Basil stats showing eaten versus wasted per month" loading="lazy">
-      <figcaption>Eaten vs wasted, every month</figcaption>
-    </figure>
+    <img class="phone" src="img/phone-home.webp" width="600" height="1177" alt="Basil home screen: items grouped into Eat today, This week and Later, with a banner saying two items need attention now">
   </div>
+</header>
 
-  <section>
-    <div class="features">
-      <div class="card">
-        <div class="k k-leaf">⌕</div>
-        <h3>Scan the label, not your patience</h3>
-        <p>Point the camera at a barcode to get the name, or at the printed date to get the expiry. Basil reads both on your phone, in a couple of seconds, and fills the form. You just check and save.</p>
-      </div>
-      <div class="card">
-        <div class="k k-urgent">3·2·1</div>
-        <h3>Nudged, not nagged</h3>
-        <p>A reminder three, two and one day before. The urgent ones buzz. The rest wait quietly in your notifications. A home‑screen widget shows what's next to go.</p>
-      </div>
-      <div class="card">
-        <div class="k k-amber">%</div>
-        <h3>Watch your waste shrink</h3>
-        <p>Every month Basil shows what you ate and what you threw away, portion by portion. Not to make you feel bad. Just so you can see the number go down.</p>
-      </div>
-    </div>
-  </section>
+<main id="features">
 
-  <section style="padding-top:0">
-    <div class="note">
+  <section class="band cream">
+    <div class="wrap split flip">
       <div>
-        <h2>Private by design</h2>
-        <p>No account, no servers, no analytics. Everything you add stays on your phone. The only thing that ever leaves is a barcode number, sent to Open Food Facts to look up a product name.</p>
+        <h2 class="display lg bars">Scan it.<br>Track it.</h2>
+        <p class="body">Point the camera at a barcode to get the product name, or at the printed date to read the expiry. Basil reads both on your phone in a couple of seconds and fills in the form. You check it and save.</p>
+        <ul class="ticks">
+          <li>Barcode and expiry date, one scanner</li>
+          <li>Reads HSD, EXP and BEST BY</li>
+          <li>Or snap a photo and type it in</li>
+        </ul>
       </div>
-      <a class="btn btn-ghost" href="privacy.html">Read the privacy policy</a>
+      <div class="visual"><img class="phone" src="img/phone-scan.webp" width="600" height="1163" alt="Basil scanner reading the barcode on a carton of milk" loading="lazy"></div>
     </div>
   </section>
 
-  <footer>
-    <div>Made by DP7 Lab</div>
+  <section class="band forest on-forest">
+    <div class="wrap split">
+      <div>
+        <h2 class="display lg bars">Use it before<br>it goes off.</h2>
+        <p class="body">One reminder a day, at the time you pick, three, two and one day before something expires. When an item has to go today, it buzzes. A widget on your home screen keeps the next few in view.</p>
+        <ul class="ticks">
+          <li>Choose the days and the time</li>
+          <li>One tidy notification, not a pile</li>
+          <li>Home-screen widget, light or dark</li>
+        </ul>
+      </div>
+      <div class="visual notif-stage" aria-label="Example of a Basil reminder and the home-screen widget">
+        <div class="notif">
+          <div class="notif-head"><span class="app-ico"><img src="img/mark.png" alt=""></span>Basil<span class="when">9:00</span></div>
+          <h4>2 items need attention now</h4>
+          <ul>
+            <li><b>Greek yogurt</b> expires <span class="t-today">today</span></li>
+            <li><b>Fresh salmon</b> expires <span class="t-today">tomorrow</span></li>
+            <li><b>Baby spinach</b> expires <span class="t-soon">in 2 days</span></li>
+          </ul>
+        </div>
+        <div class="widget-card">
+          <div class="w-title">What to eat first?</div>
+          <div class="row"><span>Greek yogurt</span><span class="pill red">today</span></div>
+          <div class="row"><span>Fresh salmon</span><span class="pill red">1d left</span></div>
+          <div class="row"><span>Baby spinach</span><span class="pill amber">2d left</span></div>
+          <div class="row"><span>Sourdough bread</span><span class="pill green">4d left</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band butter">
+    <div class="wrap split">
+      <div>
+        <h2 class="display lg bars">Waste less,<br>month by month.</h2>
+        <p class="body">Every month Basil counts what you ate and what you threw away, portion by portion. Not to make you feel bad. Just so you can watch the number go down.</p>
+      </div>
+      <div class="visual"><img class="phone" src="img/phone-stats.webp" width="600" height="1164" alt="Basil stats: 85 percent of portions eaten this month, with a monthly eaten versus wasted chart" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section class="band cream">
+    <div class="wrap split flip">
+      <div>
+        <h2 class="display lg bars">One tap<br>when it's gone.</h2>
+        <p class="body">Mark something eaten or thrown away from its page or straight from the list. Ate one of four yogurts? Basil keeps the other three. Tapped the wrong one? Undo.</p>
+      </div>
+      <div class="visual"><img class="phone" src="img/phone-detail.webp" width="600" height="1157" alt="Basil item page for Greek yogurt with Eaten it and Thrown away buttons" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section class="band butter">
+    <div class="wrap">
+      <div class="facts">
+        <div class="fact"><b>No account</b><span>Open it and start. Nothing to sign up for.</span></div>
+        <div class="fact"><b>No ads</b><span>Free to use, with an optional Pro for unlimited items.</span></div>
+        <div class="fact"><b>Your backup</b><span>Export everything to a file and restore it on a new phone.</span></div>
+        <div class="fact"><b>4 languages</b><span>English, Deutsch, Français and Tiếng Việt.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band forest on-forest">
+    <div class="wrap private">
+      <div>
+        <h2 class="display lg bars">Private<br>by design.</h2>
+        <p class="body">No account, no servers, no analytics. Everything you add stays on your phone. The only thing that ever leaves is a barcode number, sent to Open Food Facts to look up a product name.</p>
+      </div>
+      <div class="cta"><a class="btn btn-soon" href="privacy.html" style="cursor:pointer">Read the privacy policy</a></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <img src="img/wordmark-cream.png" alt="Basil" width="480" height="178">
     <div class="links">
       <a href="privacy.html">Privacy policy</a>
       <a href="mailto:dp7lab.support@gmail.com">dp7lab.support@gmail.com</a>
     </div>
-  </footer>
+    <div>Made by DP7 Lab</div>
+  </div>
+</footer>
 
-</div>
 </body>
 </html>
