@@ -79,6 +79,9 @@ nav .links a:hover, nav .links a[aria-current="page"] { color: var(--forest); te
 /* phones (cut out of the store art, transparent around the bezel) */
 .phone { justify-self: center; width: min(296px, 74vw); height: auto; filter: drop-shadow(0 30px 34px rgba(42, 39, 23, .28)); }
 .on-forest .phone { filter: drop-shadow(0 30px 40px rgba(0, 0, 0, .45)); }
+/* a full store image, shown whole */
+.shot { justify-self: center; width: min(380px, 86vw); height: auto; border-radius: 28px; box-shadow: 0 30px 60px -28px rgba(0, 0, 0, .6); }
+.visual:has(.shot) { display: grid; }
 
 /* feature bands */
 .band { padding: 96px 0; }
@@ -93,33 +96,6 @@ nav .links a:hover, nav .links a[aria-current="page"] { color: var(--forest); te
 .ticks li { display: flex; gap: 12px; align-items: baseline; font-weight: 600; color: var(--ink); }
 .ticks li::before { content: ""; flex: none; width: 10px; height: 10px; border-radius: 3px; background: var(--sand); transform: translateY(-1px); }
 .on-forest .ticks li { color: var(--on-forest); }
-
-/* the real reminder, as Basil posts it: one notification, one line per item */
-.notif-stage { justify-self: center; width: min(420px, 100%); display: grid; gap: 14px; }
-.notif {
-  background: var(--paper); color: var(--ink); border-radius: 26px; padding: 16px 18px 18px;
-  box-shadow: 0 24px 50px -24px rgba(0, 0, 0, .6);
-}
-.notif-head { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink-soft); }
-.notif-head .app-ico { width: 22px; height: 22px; border-radius: 50%; background: var(--forest); display: grid; place-items: center; }
-.notif-head .app-ico img { width: 9px; filter: brightness(0) invert(1); }
-.notif-head .when { margin-left: auto; }
-.notif h4 { margin: 10px 0 6px; font-size: 17px; line-height: 1.3; }
-.notif ul { list-style: none; margin: 0; padding: 0; font-size: 15px; color: var(--ink-soft); display: grid; gap: 3px; }
-.notif li b { color: var(--ink); font-weight: 600; }
-.notif .t-today { color: var(--urgent); font-weight: 600; }
-.notif .t-soon { color: var(--amber); font-weight: 600; }
-.widget-card {
-  background: rgba(30, 31, 22, .72); color: var(--on-forest); border-radius: 24px; padding: 16px 18px;
-  display: grid; gap: 8px; font-size: 14px; backdrop-filter: blur(6px);
-}
-.widget-card .w-title { font-weight: 700; font-size: 15px; margin-bottom: 2px; }
-.widget-card .row { display: flex; justify-content: space-between; align-items: center; }
-.widget-card .pill { border-radius: 10px; padding: 2px 9px; font-size: 12.5px; font-weight: 600; }
-.pill.red { color: #F58B6A; background: rgba(245, 139, 106, .2); }
-.pill.amber { color: #F0B65A; background: rgba(240, 182, 90, .2); }
-.pill.green { color: #8FCB7D; background: rgba(143, 203, 125, .2); }
-.caption { font-size: 13px; color: var(--on-forest-soft); text-align: center; margin: 4px 0 0; }
 
 /* facts strip */
 .facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
